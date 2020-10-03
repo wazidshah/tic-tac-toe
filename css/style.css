@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.board-container{color: gray;}
+
+.board-container .row{display: flex; flex-direction: row;}
+.board-container .cell { width: 80px; height: 80px; border: 1px solid #000000; display: flex; justify-content: center; align-items: center; font-size: 80px;}
+
